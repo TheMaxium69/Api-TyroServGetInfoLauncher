@@ -1,15 +1,25 @@
 <?php
 
-
-
 header('Content-Type: application/json; charset=utf-8');
 
-$file = __DIR__ . '/optional.json';
+// Récupération du paramètre type
+$type = isset($_GET['t']) ? $_GET['t'] : '';
+
+// Vérification du type
+if (!in_array($type, ['lock', 'optional', 'server'])) {
+    echo json_encode([
+        'error' => 'Type invalide.'
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+
+$file = __DIR__ . '/' . $type . '.json';
 
 // Vérifie si le fichier existe
 if (!file_exists($file)) {
     echo json_encode([
-        'error' => 'Le fichier optional.json est introuvable.'
+        'error' => 'Le fichier ' . $type . '.json est introuvable.'
     ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     exit;
 }
@@ -21,7 +31,7 @@ $content = file_get_contents($file);
 $json = json_decode($content, true);
 if (json_last_error() !== JSON_ERROR_NONE) {
     echo json_encode([
-        'error' => 'Le fichier optional.json contient un JSON invalide.'
+        'error' => 'Le fichier ' . $type . '.json contient un JSON invalide.'
     ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     exit;
 }
