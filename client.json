@@ -1,0 +1,23 @@
+[
+
+  {
+    "id": -3,
+    "modid": "forge",
+    "version": "14.23.5.2860"
+  },
+  {
+    "id": -2,
+    "modid": "mcp",
+    "version": "9.42"
+  },
+  {
+    "id": -1,
+    "modid": "FML",
+    "version": "8.0.99.99"
+  },
+  {
+    "id": 0,
+    "modid": "minecraft",
+    "version": "1.12.2"
+  }
+]

@@ -6,7 +6,7 @@ header('Content-Type: application/json; charset=utf-8');
 $type = isset($_GET['t']) ? $_GET['t'] : '';
 
 // Vérification du type
-if (!in_array($type, ['lock', 'optional', 'server'])) {
+if (!in_array($type, ['lock', 'optional', 'server', 'client'])) {
     echo json_encode([
         'error' => 'Type invalide.'
     ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
@@ -15,6 +15,20 @@ if (!in_array($type, ['lock', 'optional', 'server'])) {
 
 
 $file = __DIR__ . '/' . $type . '.json';
+
+if ($type === 'server') {
+    // Charge les 3 fichiers JSON
+    $client = json_decode(file_get_contents(__DIR__ . '/client.json'), true);
+    $lock = json_decode(file_get_contents(__DIR__ . '/lock.json'), true);
+    $optional = json_decode(file_get_contents(__DIR__ . '/optional.json'), true);
+
+    // Fusionne les 3 tableaux
+    $json = array_merge($client, $lock, $optional);
+
+    // Renvoie le tableau fusionné
+    echo json_encode($json, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    exit;
+}
 
 // Vérifie si le fichier existe
 if (!file_exists($file)) {
