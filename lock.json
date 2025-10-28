@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nom": "TyroMod",
+        "version": "S3-0.9",
+        "auteur": "Maxime Tournier",
+        "imageUrl": "../asset/mods/tyromod.png",
+        "btnInfo": {
+            "curseforge": "https://www.curseforge.com/minecraft/mc-mods/tyromod",
+            "github": "https://github.com/TheMaxium69/tyromod"
+        }
+    },
+    {
+        "id": 2,
+        "nom": "TyroCapeMod",
+        "version": "0.5.0",
+        "auteur": "Maxime Tournier",
+        "imageUrl": "",
+        "btnInfo": {
+            "none": ""
+        }
+    },
+    {
+        "id": 3,
+        "nom": "IronChest",
+        "version": "7.0.72.847",
+        "auteur": "ProgWML6",
+        "imageUrl": "../asset/mods/ironchest.png",
+        "btnInfo": {
+            "curseforge": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+            "github": "https://github.com/progwml6/ironchest"
+        }
+    },
+    {
+        "id": 4,
+        "nom": "IronFurnaces",
+        "version": "1.3.5",
+        "auteur": "XenoMustache",
+        "imageUrl": "../asset/mods/ironfurnace.png",
+        "btnInfo": {
+            "curseforge": "https://www.curseforge.com/minecraft/mc-mods/iron-furnaces",
+            "github": "https://github.com/Qelifern/IronFurnaces"
+        }
+    },
+    {
+        "id": 5,
+        "nom": "CustomMainMenu",
+        "version": "2.0.9.1",
+        "auteur": "Lumien231",
+        "imageUrl": "../asset/mods/cmm.png",
+        "btnInfo": {
+            "curseforge": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
+            "github": "https://github.com/lumien231/Custom-Main-Menu"
+        }
+    }
+]

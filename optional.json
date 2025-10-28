@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "nom": "Schematica",
+    "version": "1.8.0.169",
+    "auteur": "Lunatrius",
+    "imageUrl": "../asset/mods/shematica.png",
+    "jar": "Schematica[1.8.0.169]",
+    "activate": false,
+    "dependence": [
+      {
+        "nom":"LunatriusCore",
+        "version":"1.2.0.42",
+        "jar":"LunatriusCore[1.2.0.42]"
+      }
+    ],
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/schematica",
+      "github": "https://github.com/Lunatrius/Schematica"
+    }
+  },
+  {
+    "id": 2,
+    "nom": "Neat",
+    "version": "1.4-17",
+    "auteur": "Vazkii",
+    "imageUrl": "../asset/mods/neat.png",
+    "jar": "Neat[1.4-17]",
+    "activate": false,
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/neat",
+      "github": "https://github.com/VazkiiMods/Neat"
+    }
+  },
+  {
+    "id": 3,
+    "nom": "Optifine",
+    "version": "HD_U_E3",
+    "auteur": "Optifine Team",
+    "imageUrl": "../asset/mods/OptiFine.webp",
+    "jar": "OptiFine[HD_U_E3]",
+    "activate": false,
+    "btnInfo": {
+      "link": "https://optifine.net/home"
+    }
+  },
+  {
+    "id": 4,
+    "nom": "Just Enough Items",
+    "version": "4.16.1.1012",
+    "auteur": "Mezz",
+    "imageUrl": "../asset/mods/jei.jpeg",
+    "jar": "Jei[4.16.1.1012]",
+    "activate": true,
+    "dependence": [
+      {
+        "nom":"GeckolibForge",
+        "version":"3.0.31",
+        "jar":"GeckolibForge[3.0.31]"
+      }
+    ],
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "github": "https://github.com/mezz/JustEnoughItems"
+    }
+  }
+]
