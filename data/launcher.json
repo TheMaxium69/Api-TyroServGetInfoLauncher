@@ -1,6 +1,22 @@
 [
   {
-    "name":"",
-    "version": ""
+    "name":"TyroServ Saison",
+    "version": "3.0"
+  },
+  {
+    "name":"TyroServ Launcher",
+    "version": "0.1.5"
+  },
+  {
+    "name":"TyroServ Loader",
+    "version": "0.1.2"
+  },
+  {
+    "name":"Useritium Version",
+    "version": "V2.0"
+  },
+  {
+    "name":"TyroMod Version",
+    "version": "S3-0.10"
   }
 ]
