@@ -5,7 +5,7 @@
   },
   {
     "name":"TyroServ Launcher",
-    "version": "0.1.5"
+    "version": "0.1.6"
   },
   {
     "name":"TyroServ Loader",
@@ -17,6 +17,6 @@
   },
   {
     "name":"TyroMod Version",
-    "version": "S3-0.10"
+    "version": "S3-0.11"
   }
 ]

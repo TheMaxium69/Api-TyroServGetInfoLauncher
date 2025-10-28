@@ -3,8 +3,8 @@
         "id": 1,
         "nom": "TyroMod",
         "modid": "tyromod",
-        "version": "0.10",
-        "versionAlias": "S3-0.10",
+        "version": "0.11",
+        "versionAlias": "S3-0.11",
         "auteur": "Maxime Tournier",
         "imageUrl": "../asset/mods/tyromod.png",
         "btnInfo": {
