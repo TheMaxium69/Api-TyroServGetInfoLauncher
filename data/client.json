@@ -2,21 +2,25 @@
   {
     "id": -3,
     "modid": "forge",
-    "version": "14.23.5.2860"
+    "version": "14.23.5.2860",
+    "isLock": "true"
   },
   {
     "id": -2,
     "modid": "mcp",
-    "version": "9.42"
+    "version": "9.42",
+    "isLock": "true"
   },
   {
     "id": -1,
     "modid": "FML",
-    "version": "8.0.99.99"
+    "version": "8.0.99.99",
+    "isLock": "true"
   },
   {
     "id": 0,
     "modid": "minecraft",
-    "version": "1.12.2"
+    "version": "1.12.2",
+    "isLock": "true"
   }
 ]
