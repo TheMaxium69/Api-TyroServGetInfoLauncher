@@ -1,5 +1,4 @@
 [
-
   {
     "id": 6,
     "nom": "Just Enough Items",
@@ -33,7 +32,7 @@
   {
     "id": 8,
     "nom": "Inventory HUD+",
-    "modid": "inv",
+    "modid": "inventoryhud",
     "version": "3.4.4",
     "isLock": "false",
     "auteur": "dmitrylovin",
@@ -56,15 +55,15 @@
     "activate": false,
     "dependence": [
       {
-        "nom":"LunatriusCore",
-        "modid": "",
-        "version":"1.2.0.42",
-        "jar":"LunatriusCore[1.2.0.42]"
+        "nom": "LunatriusCore",
+        "modid": "lunatriuscore",
+        "version": "1.2.0.42",
+        "jar": "LunatriusCore[1.2.0.42]"
       }
     ],
     "btnInfo": {
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/schematica",
       "github": "https://github.com/Lunatrius/Schematica"
     }
-  },
+  }
 ]
