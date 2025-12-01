@@ -1,6 +1,51 @@
 [
+
   {
     "id": 6,
+    "nom": "Just Enough Items",
+    "modid": "jei",
+    "version": "4.16.1.1013",
+    "isLock": "false",
+    "auteur": "Mezz",
+    "imageUrl": "../asset/mods/jei.jpeg",
+    "jar": "JustEnoughItems[4.16.1.1013]",
+    "activate": true,
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "github": "https://github.com/mezz/JustEnoughItems"
+    }
+  },
+  {
+    "id": 7,
+    "nom": "Neat",
+    "modid": "neat",
+    "version": "1.4-17",
+    "isLock": "false",
+    "auteur": "Vazkii",
+    "imageUrl": "../asset/mods/neat.png",
+    "jar": "Neat[1.4-17]",
+    "activate": false,
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/neat",
+      "github": "https://github.com/VazkiiMods/Neat"
+    }
+  },
+  {
+    "id": 8,
+    "nom": "Inventory HUD+",
+    "modid": "inv",
+    "version": "3.4.4",
+    "isLock": "false",
+    "auteur": "dmitrylovin",
+    "imageUrl": "../asset/mods/inv.png",
+    "jar": "InventoryHUD[3.4.4]",
+    "activate": false,
+    "btnInfo": {
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge"
+    }
+  },
+  {
+    "id": 9,
     "nom": "Schematica",
     "modid": "schematica",
     "version": "1.8.0.169",
@@ -22,56 +67,4 @@
       "github": "https://github.com/Lunatrius/Schematica"
     }
   },
-  {
-    "id": 7,
-    "nom": "Neat",
-    "modid": "neat",
-    "version": "1.4-17",
-    "isLock": "false",
-    "auteur": "Vazkii",
-    "imageUrl": "../asset/mods/neat.png",
-    "jar": "Neat[1.4-17]",
-    "activate": false,
-    "btnInfo": {
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/neat",
-      "github": "https://github.com/VazkiiMods/Neat"
-    }
-  },
-  {
-    "id": 8,
-    "nom": "Optifine",
-    "modid": "optifine",
-    "version": "HD_U_E3",
-    "isLock": "false",
-    "auteur": "Optifine Team",
-    "imageUrl": "../asset/mods/OptiFine.webp",
-    "jar": "OptiFine[HD_U_E3]",
-    "activate": false,
-    "btnInfo": {
-      "link": "https://optifine.net/home"
-    }
-  },
-  {
-    "id": 9,
-    "nom": "Just Enough Items",
-    "modid": "jei",
-    "version": "4.16.1.1012",
-    "isLock": "false",
-    "auteur": "Mezz",
-    "imageUrl": "../asset/mods/jei.jpeg",
-    "jar": "Jei[4.16.1.1012]",
-    "activate": true,
-    "dependence": [
-      {
-        "nom":"GeckolibForge",
-        "modid": "",
-        "version":"3.0.31",
-        "jar":"GeckolibForge[3.0.31]"
-      }
-    ],
-    "btnInfo": {
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/jei",
-      "github": "https://github.com/mezz/JustEnoughItems"
-    }
-  }
 ]
